@@ -23,7 +23,7 @@ Ask "give me the report" and get one checked at this minute, with the time on it
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add RabbitDesigns22/report-now
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/report-now/tree/9ab49551ea7de3b65d207b0b6da8906374da5146
 ```
 
 Or manually: copy `skills/report-now/` into `~/.claude/skills/` for all your projects, or into `.claude/skills/` for one project.
@@ -44,7 +44,7 @@ When the user asks for a report or a status, load the report-now skill.
 
 **El reporte de ahorita.** Cuando preguntas "¿cómo va todo?", muchos agentes te pegan el último reporte que hicieron, de hace horas o días. `report-now` obliga al agente a ver la hora real, revisar en ese momento cada fuente en vivo (servicios, números, pendientes, errores) y darte un reporte serio con fecha y hora: lo importante primero, cómo está cada área, problemas encontrados ahora, qué necesita de ti y qué no pudo comprobar.
 
-Instalar: `npx skills add RabbitDesigns22/report-now`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/report-now/tree/9ab49551ea7de3b65d207b0b6da8906374da5146`
 
 ## More skills from the same setup
 
